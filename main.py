@@ -5,7 +5,6 @@ from datetime import datetime, timezone
 
 url1 = 'https://api.notion.com/v1/pages'
 
-
 def get_pages():
     url = f"https://api.notion.com/v1/databases/{DATABASE_ID}/query"
 
